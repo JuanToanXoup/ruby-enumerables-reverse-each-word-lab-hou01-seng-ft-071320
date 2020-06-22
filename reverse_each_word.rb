@@ -4,4 +4,5 @@ def reverse_each_word(string)
   sentence += word.reverse+" "
   end
   sentence = sentence - " "
+  sentence
 end
