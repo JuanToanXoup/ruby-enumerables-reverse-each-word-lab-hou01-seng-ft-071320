@@ -1,6 +1,6 @@
 def reverse_each_word(string)
   sentence = ''
-  string.split("((?<=\\s+)|(?=\\s+))").each do |word|
+  string.split("\\b").each do |word|
   sentence += word.reverse
   end
   sentence
